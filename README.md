@@ -1,2 +1,2 @@
 # Python Course 🐍
- **Repository with codes and tips for Development and Bioinformatics.**
+ **Repository with codes, tips and tricks for Development and Bioinformatics.**
