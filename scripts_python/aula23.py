@@ -1,5 +1,5 @@
 '''
-Operador logico NOT
+Operador lógico NOT
 usado para inverter expressões
 not True = False
 not False = True
