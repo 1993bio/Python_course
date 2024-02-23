@@ -6,7 +6,7 @@
   Basic and intermediate difficulty level
 </h2>
 
-<p>
+<p align = "justify">
 This course was designed as an extension project offered by the federal university of Alfenas, Brazil
   
 </p>
