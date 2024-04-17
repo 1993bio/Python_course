@@ -9,5 +9,27 @@ lista_b     = [1, 2, 3, 4]
 =================== resultado
 lista_soma  = [2, 4, 6, 8]
 """
-lista_a = [10, 2, 3, 40, 5, 6, 7]
+lista_a = [1, 2, 3, 4, 5, 6, 7]
 lista_b = [1, 2, 3, 4]
+#  A melhor solução pythonica, usando recursos do python
+lista_somada = [x + y for x , y in zip(lista_a,lista_b)]
+print(lista_somada)
+
+
+
+# solução genérica, sem recursos do python
+# lista_somada = []
+# for i in range(len(lista_b)):
+#     lista_somada.append(lista_a[i] + lista_b[i])
+# print(lista_somada)
+
+
+# segunda solução
+# lista_somada = []
+# for i, _ in enumerate(lista_b): # quando usamos underline mencionamos que queremos somente o indice e nao o valor da posição
+#     lista_somada.append(lista_a[i] + lista_b[i])
+# print(lista_somada)
+
+
+#  A melhor solução pythonica, usando recursos do python
+
